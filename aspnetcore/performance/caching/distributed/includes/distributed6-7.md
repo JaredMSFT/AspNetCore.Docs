@@ -11,7 +11,7 @@ When cached data is distributed, the data:
 * Survives server restarts and app deployments.
 * Doesn't use local memory.
 
-Distributed cache configuration is implementation specific. This article describes how to configure SQL Server,  Redis, and Postgres distributed caches. Third party implementations are also available, such as [NCache](http://www.alachisoft.com/ncache/aspnet-core-idistributedcache-ncache.html) ([NCache on GitHub](https://github.com/Alachisoft/NCache)). Regardless of which implementation is selected, the app interacts with the cache using the <xref:Microsoft.Extensions.Caching.Distributed.IDistributedCache> interface.
+Distributed cache configuration is implementation specific. This article describes how to configure SQL Server,  Redis, and PostgreSQL distributed caches. Third party implementations are also available, such as [NCache](http://www.alachisoft.com/ncache/aspnet-core-idistributedcache-ncache.html) ([NCache on GitHub](https://github.com/Alachisoft/NCache)). Regardless of which implementation is selected, the app interacts with the cache using the <xref:Microsoft.Extensions.Caching.Distributed.IDistributedCache> interface.
 
 [View or download sample code](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/performance/caching/distributed/samples/) ([how to download](xref:index#how-to-download-a-sample))
 
@@ -42,7 +42,7 @@ Register an implementation of <xref:Microsoft.Extensions.Caching.Distributed.IDi
 * [Distributed Redis cache](#distributed-redis-cache)
 * [Distributed Memory Cache](#distributed-memory-cache)
 * [Distributed SQL Server cache](#distributed-sql-server-cache)
-* [Distributed Postgres cache](#distributed-postgres-cache)
+* [Distributed PostgreSQL cache](#distributed-postgres-cache)
 * [Distributed NCache cache](#distributed-ncache-cache)
 
 ### Distributed Redis Cache
